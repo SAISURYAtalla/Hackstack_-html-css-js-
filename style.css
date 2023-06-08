@@ -1,0 +1,110 @@
+body {
+    display:flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+h1 {
+    margin: 0;
+  }
+  
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+  }
+  
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+.movie {
+    width: 200px;
+    margin: 10px;
+  }
+  
+.movie img {
+    width: 100%;
+    height: auto;
+  }
+  
+.movie h2 {
+    margin: 5px 0;
+  }
+  
+.movie p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+.card2 {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+.search {
+    padding: 20px;
+  }
+  
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+ul {
+    padding: 0;
+  }
+  
+ul li {
+    margin-bottom: 10px;
+  }
+  
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+main {
+    flex: 1;
+    padding: 20px;
+  }
+  
